@@ -1,0 +1,273 @@
+/* Caution! This theme only works for dark theme. It will not work properly at light theme. */
+
+body {
+    -webkit-transition: background 3s ease-in-out;
+    transition: background 3s ease-in-out;
+
+    /* Background was made by PussyCat#6202*/
+    background: #fff url(https://cdn.discordapp.com/attachments/745072831179784392/745082890433462322/Discord.jpg);
+
+    /* Just in case adjusting the position is necessary (x% y%)*/
+    background-position: 50% 0;
+
+    /* If the background picture is blurry, please use a bigger sized background picture. */
+    background-size: contain;
+}
+
+.appMount_fae9dd
+{
+    /* You can adjust the background brightness by reducing the fourth value of below.
+       0.0 for no dark background, 1.0 for full darkness.
+
+       Or, you can change the other values for tint and so.
+       1st value - Red 0-255
+       2nd value - Green 0-255
+       3rd value - Blue 0-255
+       4th value - Alpha (Opacity) 0.0-1.0 */
+    background: rgba(0, 0, 15, 0.25);
+    transition: background 0.5s ease-in-out;
+}
+
+:root {
+	--primary-400: rgba(0, 0, 0, 0.5);
+	--primary-500: rgba(0, 0, 0, 0);
+    --primary-500-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 1%;
+	--primary-530: rgba(0, 0, 0, 0);
+	--primary-560: rgba(0, 0, 0, 0.5);
+	--primary-600: rgba(0, 0, 0, 0);
+	--primary-660: rgba(0, 0, 0, 0.5);
+	--primary-630: rgba(0, 0, 0, 0.85);
+	--primary-700: rgba(0, 0, 0, 0);
+	--primary-700-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 1%;
+	--primary-800: rgba(0, 0, 0, 0.75);
+	--white-500-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 100%;
+}
+
+.theme-dark {
+	--scrollbar-thin-thumb: rgba(0, 0, 0, 0.75);
+	--scrollbar-auto-thumb: rgba(0, 0, 0, 0.75);
+	--scrollbar-auto-track: rgba(0, 0, 0, 0);
+	--background-mentioned: hsl(var(--brand-500-hsl) / 0.15);
+	--background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.3);
+	--__spoiler-background-color--hidden: rgba(0, 0, 0, .5);
+	--__spoiler-background-color--revealed: rgba(0, 0, 0, .5);
+	--modal-background: rgba(0, 0, 0, .5);
+	--modal-footer-background: rgba(0, 0, 0, .5);
+	--button-secondary-background-hover: hsl(var(--brand-500-hsl) / 0.8);
+	--input-background: rgba(0, 0, 0, .75);
+	--background-modifier-accent: rgba(0, 0, 0, 0);
+	--background-modifier-selected: rgba(0, 0, 0, .75);
+}
+
+/* side panel background fixes */
+.privateChannels__93473 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.sidebar_ded4b5 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .scroller__4b984 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .container__590e2 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.icon_eff5d4 {
+	color: rgba(255, 255, 255, .3);
+}
+
+.modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {
+	color: rgba(255, 255, 255, .8);
+}
+
+.theme-dark .container_ca50b9 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.panels__58331 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.container_d667ff {
+	background: rgba(0, 0, 0, 0);
+	border-bottom: rgba(0, 0, 0, 0);
+}
+
+.sectionDivider__68d2a {
+	background: rgba(0, 0, 0, 0);
+}
+
+.header__104ca {
+	box-shadow: var(--black);
+}
+
+.searchBar_e4ea2a {
+	box-shadow: var(--black);
+}
+
+.theme-dark .panel_bd8c76 {
+	background: rgba(0, 0, 0, 0);
+}	
+
+
+/* server list background fix */
+.wrapper_a7e7a8 {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+/*app bar background fix */
+.typeWindows__5fa63 {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.withFrame__485f4 {
+	margin-top: 0px;
+}
+
+/* top bar background fix */
+.icon__4cb88 {
+	color: rgba(255, 255, 255, .8);
+}
+
+.searchBar_e0c60b {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.tabBody_b3d268:before {
+	box-shadow: var(--black);
+}
+
+/* chat box fix */
+.content__1a4fe:before {
+	box-shadow: var(--black);
+}
+
+.isUnread__6f880 .content_d67847 {
+	color:rgba(120, 130, 255, 1);
+}
+
+.divider_b9338f {
+	border-top: thin solid rgba(0, 0, 0, 0);
+}
+
+.endCap__95d53 {
+	color:rgba(0, 0, 0, 1);
+}
+
+.mentioned__58017:before {
+	background-color: var(--brand-experiment);
+}
+
+.theme-dark .footerSeparator__57d95 {
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 1);
+}
+
+.theme-dark .contentWarningPopout__7d8c2 {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.optionPill_f86b98 {
+	border: solid 0px transparent;
+}
+
+.wrapper_c727b6 {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lookFilled__19298.colorPrimary__6ed40 {
+	background-color: rgba(0, 0, 0, 0.5);
+}	
+
+.metadata__541c7 {
+	color: rgba(255, 255, 255, .5);
+}
+
+.compactButton__0f247, .compactButtonDisabled_f3bf7b {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.chat_f9a759:before {
+	box-shadow: var(--black);
+}	
+
+/* user side bar background fixes */
+.members__9f47b {
+	background: rgba(0, 0, 0, 0);
+}
+
+.container_b2ce9c {
+	background: rgba(0, 0, 0, 0);
+}
+
+.member_b44d5d {
+	background: rgba(0, 0, 0, 0);
+}
+
+.nowPlayingColumn_f5023f {
+	background: rgba(0, 0, 0, 0);
+}	
+
+/* settings fixes */
+.itemFilled__373d7 {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.columnHeading__7e90b, .tableCell__77206 {
+	border-bottom: 0px solid hsl(var(--white-500-hsl)/.15)
+}
+
+.booleanValueIcon__864e1 {
+	color: rgba(255, 255, 255, 1);
+}
+
+.subscriptionDetails_f73fb4, .sectionAccountCredit__8ffc1 {
+	border-bottom: 0px solid hsl(var(--white-500-hsl)/.15)
+}
+
+.theme-dark .notches__065e9.gray__4fb3f {
+	color:  rgba(0, 0, 0, 0.75);
+}	
+
+.theme-dark .progress__2cc1d {
+	background-color: rgba(120, 130, 255, 1);
+}
+
+.theme-dark .row__7a44a {
+	box-shadow:inset 0 0px 0 hsl(var(--primary-400-hsl)/.3)
+}
+
+/* server settings fix */
+.divider__12403 {
+	border-top: 0px solid transparent;
+}
+
+.theme-dark .customColorPicker__3cb6a {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+/* stream background fix */
+.callContainer_cbde45 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper_bd2abe.minimum_ebf000 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* browse channels fix */
+.theme-dark .container__10dc7, .theme-dark .header__60bef {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .container__7590f {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .innerHeader_afca2f:after {
+	background: rgba(0, 0, 0, 0);
+}	
+	
