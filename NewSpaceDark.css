@@ -5,7 +5,7 @@ body {
     transition: background 3s ease-in-out;
 
     /* Background was made by PussyCat#6202*/
-    background: #fff url(https://cdn.discordapp.com/attachments/745072831179784392/745082890433462322/Discord.jpg);
+    background: #fff url(https://img95.pixhost.to/images/13/460968896_space1.png);
 
     /* Just in case adjusting the position is necessary (x% y%)*/
     background-position: 50% 0;
@@ -14,7 +14,7 @@ body {
     background-size: contain;
 }
 
-.appMount_fae9dd
+.appMount_c99875
 {
     /* You can adjust the background brightness by reducing the fourth value of below.
        0.0 for no dark background, 1.0 for full darkness.
@@ -29,18 +29,19 @@ body {
 }
 
 :root {
-	--primary-400: rgba(0, 0, 0, 0.5);
+	-1-primary-400: rgba(0, 0, 0, 0.5);
 	--primary-500: rgba(0, 0, 0, 0);
     --primary-500-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 1%;
 	--primary-530: rgba(0, 0, 0, 0);
-	--primary-560: rgba(0, 0, 0, 0.5);
 	--primary-600: rgba(0, 0, 0, 0);
+	--primary-600-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 1%;
 	--primary-660: rgba(0, 0, 0, 0.5);
-	--primary-630: rgba(0, 0, 0, 0.85);
+	--primary-630: rgba(0, 0, 0, 0);
 	--primary-700: rgba(0, 0, 0, 0);
 	--primary-700-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 1%;
 	--primary-800: rgba(0, 0, 0, 0.75);
-	--white-500-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 100%;
+	--red-400: rgba(100, 110, 255, 1);
+	--green-360: rgba(100, 110, 255, 1);
 }
 
 .theme-dark {
@@ -51,13 +52,17 @@ body {
 	--background-mentioned-hover: hsl(var(--brand-500-hsl) / 0.3);
 	--__spoiler-background-color--hidden: rgba(0, 0, 0, .5);
 	--__spoiler-background-color--revealed: rgba(0, 0, 0, .5);
-	--modal-background: rgba(0, 0, 0, .5);
+	--modal-background: rgba(0, 0, 0, .75);
 	--modal-footer-background: rgba(0, 0, 0, .5);
 	--button-secondary-background-hover: hsl(var(--brand-500-hsl) / 0.8);
 	--input-background: rgba(0, 0, 0, .75);
 	--background-modifier-accent: rgba(0, 0, 0, 0);
 	--background-modifier-selected: rgba(0, 0, 0, .75);
+	--status-speaking: rgba(100, 110, 255, 1);
+	--channels-default: rgba(255, 255, 255, .5);
+	--channeltextarea-background: rgba(0, 0, 0, 0.75);
 }
+
 
 /* side panel background fixes */
 .privateChannels__93473 {
@@ -101,30 +106,37 @@ body {
 	background: rgba(0, 0, 0, 0);
 }
 
-.header__104ca {
+.header__77c95 {
 	box-shadow: var(--black);
 }
 
-.searchBar_e4ea2a {
+.searchBar__621ec {
 	box-shadow: var(--black);
 }
+
+.theme-dark .container_debb33 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.quickswitcher_b5bb0a {
+	background-color: rgba(0, 0, 0, 0.75);
+}	
 
 .theme-dark .panel_bd8c76 {
 	background: rgba(0, 0, 0, 0);
 }	
 
-
 /* server list background fix */
-.wrapper_a7e7a8 {
+.wrapper__216eb {
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
 /*app bar background fix */
-.typeWindows__5fa63 {
+.typeWindows_e41dab {
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
-.withFrame__485f4 {
+.withFrame__5e49e {
 	margin-top: 0px;
 }
 
@@ -133,16 +145,32 @@ body {
 	color: rgba(255, 255, 255, .8);
 }
 
-.searchBar_e0c60b {
+.searchBar__5a20a {
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.tabBody_b3d268:before {
+.tabBody_a90ea8:before {
 	box-shadow: var(--black);
 }
 
+.container_f93da8 {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.messagesPopoutWrap__10dd1 {
+	background-color: rgba(0, 0, 0, 0.75);
+}	
+
+.container_c96c91 {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.theme-dark .streamPreview__965fa {
+	background-color: rgba(0, 0, 0, 0.9);
+}	
+
 /* chat box fix */
-.content__1a4fe:before {
+.content__01e65:before {
 	box-shadow: var(--black);
 }
 
@@ -150,7 +178,7 @@ body {
 	color:rgba(120, 130, 255, 1);
 }
 
-.divider_b9338f {
+.divider__855e3 {
 	border-top: thin solid rgba(0, 0, 0, 0);
 }
 
@@ -190,16 +218,53 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.chat_f9a759:before {
+.chat_f8f70f:before {
 	box-shadow: var(--black);
 }	
+
+.jumpToPresentBar__0ff7f {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.theme-dark .themed_b152d4 {
+	background: rgba(0, 0, 0, 0);
+}
+
+.forumOrHome__75784 {
+	--__header-bar-background: rgba(0, 0, 0, 0);
+}
+
+.container_b181b6 {
+	background: rgba(0, 0, 0, 0);
+}	
+
+.theme-dark .scrollerContainer_bf5dbd, .theme-dark .emptyPage__3e15d {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.embedFull__14919 {
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.contentWrapper_e0bb2c {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .callContainer__1477d {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.callContainer__1477d {
+	background-color: rgba(0, 0, 0, 0);	
+}	
+
 
 /* user side bar background fixes */
 .members__9f47b {
 	background: rgba(0, 0, 0, 0);
 }
 
-.container_b2ce9c {
+.container_e1958d {
 	background: rgba(0, 0, 0, 0);
 }
 
@@ -216,7 +281,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.25);
 }
 
-.columnHeading__7e90b, .tableCell__77206 {
+.columnHeading_d35d98, .tableCell__23b95 {
 	border-bottom: 0px solid hsl(var(--white-500-hsl)/.15)
 }
 
@@ -224,7 +289,7 @@ body {
 	color: rgba(255, 255, 255, 1);
 }
 
-.subscriptionDetails_f73fb4, .sectionAccountCredit__8ffc1 {
+.theme-dark .subscriptionDetails_a1ad09, .theme-dark .sectionAccountCredit_c94c5d {
 	border-bottom: 0px solid hsl(var(--white-500-hsl)/.15)
 }
 
@@ -236,16 +301,42 @@ body {
 	background-color: rgba(120, 130, 255, 1);
 }
 
-.theme-dark .row__7a44a {
+.theme-dark .row__7007e {
 	box-shadow:inset 0 0px 0 hsl(var(--primary-400-hsl)/.3)
 }
 
+.profileColors_ac6ab4 {
+	--profile-gradient-primary-color: rgba(0, 0, 0, 0.75);
+	--profile-gradient-secondary-color: rgba(0, 0, 0, 0.75);
+	--profile-body-background-color: rgba(0, 0, 0, 0);
+}
+
+.closeIcon__5363e {
+	color:  rgba(255, 255, 255, 0.5);
+}
+
+.option__1d8de {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.theme-dark .footerSeparator__2af8d {
+	box-shadow:inset 0 0px 0 hsl(var(--primary-400-hsl)/.3)
+}	
+
 /* server settings fix */
-.divider__12403 {
+.theme-dark .divider__90677 {
 	border-top: 0px solid transparent;
 }
 
-.theme-dark .customColorPicker__3cb6a {
+.theme-dark .emojiRow_db53d4 {
+	box-shadow:inset 0 0px 0 hsl(var(--primary-400-hsl)/.3)
+}
+
+.uploader__9af74 {
+	box-shadow:inset 0 0px 0 hsl(var(--primary-400-hsl)/.3)
+}	
+
+.theme-dark .customColorPicker_bbc020 {
 	background: rgba(0, 0, 0, 0.9);
 }
 
@@ -257,6 +348,9 @@ body {
 .wrapper_bd2abe.minimum_ebf000 {
 	background-color: rgba(0, 0, 0, 0);
 }
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .callContainer__1477d {
+	color:  rgba(255, 255, 255, 1);
+}	
 
 /* browse channels fix */
 .theme-dark .container__10dc7, .theme-dark .header__60bef {
@@ -269,5 +363,4 @@ body {
 
 .theme-dark .innerHeader_afca2f:after {
 	background: rgba(0, 0, 0, 0);
-}	
-	
+}
